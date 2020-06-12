@@ -6,16 +6,16 @@ Simple example of acme RL library. Takes the official colab tutorial https://git
 
 1. Install apt-get dependency
 
-    sudo apt-get install -y xvfb     
+        sudo apt-get install -y xvfb     
 
 2. Create conda env with all necessary dependencies:
 
-    conda env create -f environment.yml
+        conda env create -f environment.yml
 
 3. Activate the environment
 
-    conda activate acme-rl-example
+        conda activate acme-rl-example
 
 4. Lunch Jupyter and run the notebook:
 
-    jupyter notebook
+        jupyter notebook
