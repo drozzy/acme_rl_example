@@ -1,0 +1,33 @@
+name: acme-rl-example
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - pytorch
+  - torchvision 
+  - cudatoolkit=10.2
+  - pip
+  - pip:    
+    - reverb
+    - tf-nightly==2.3.0.dev20200604 # (reverb) missing - only found through reverb repo
+    - dm-reverb-nightly #             (reberb)
+    - tensorflow-probability # missing
+    - wrapt # missing 
+    - dm-sonnet # missing
+    - graphs # missing
+    - trfl # missing 
+    - dm-acme
+    - dm-acme[reverb]
+    - dm-acme[tf]    
+    - dm-acme[envs]
+    # for visualizing
+    - ffmpeg
+    - gym
+    - imageio
+    - PILLOW 
+    - pyglet
+    - pyvirtualdisplay
+    - imageio-ffmpeg
