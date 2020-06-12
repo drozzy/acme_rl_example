@@ -1,6 +1,6 @@
 # acme_rl_example
 
-Simple example of acme RL library. Takes the official colab tutorial https://github.com/deepmind/acme/blob/master/examples/tutorial.ipynb and makes it runnable with all the necessary dependencies, except for some you have to install via apt-get.
+Simple example of acme RL library. Takes the official colab tutorial https://github.com/deepmind/acme/blob/master/examples/tutorial.ipynb and makes it runnable with all the necessary dependencies, except for some the mujoco.
 
 ## Installation
 
